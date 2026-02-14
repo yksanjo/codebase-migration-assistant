@@ -1,0 +1,27 @@
+{
+  "name": "codebase-migration-assistant",
+  "version": "1.0.0",
+  "description": "Helps migrate projects between frameworks or languages - analyzes existing code, suggests migration strategies, and generates transformed code with explanations",
+  "main": "src/cli/index.js",
+  "bin": {
+    "migrate": "./src/cli/index.js"
+  },
+  "scripts": {
+    "start": "node src/cli/index.js",
+    "test": "echo \"No tests specified yet\" && exit 0"
+  },
+  "keywords": [
+    "migration",
+    "code",
+    "transform",
+    "framework",
+    "converter",
+    "typescript",
+    "react"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
